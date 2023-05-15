@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font item extarnal link -->
+    <script src="https://kit.fontawesome.com/a4cef9cb72.js" crossorigin="anonymous"></script>
+
+    <!-- css framework link for tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+     <!-- css framework link for bootstrapcss -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font family link up with google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Roboto+Slab&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <!-- extarnal css file linkup -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- title bar fav-icon mean titlebar icon system -->
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title class="text-violet-gradient"> Best Five Player  Selection</title>
+
+</head>
+<body class="p-8 bg-gradient-to-r from-violet-500 to-fuchsia-400">
+<header class="text-center text-5xl font-extrabold mb-12">
+    <h1 class="text-violet-gradient text-border-line-ismail"> Selecting Bangladesh's Cricket Team</h1>
+
+</header>
+
+<main>
+<section class="bg-gradient-to-r from-violet-600 to-fuchsia-600 p-8 rounded-lg mb-8">
+    <div class="mx-auto gap-8 mx-auto grid grid-cols-4 w-9/12">
+        <div class="col-span-1"><img class="image-cl left-image" src="images/keeper_batsman.png" alt=""></div>
+        <div class="col-span-2">
+            <div class="p-8 text-center">
+                <h1 class="text-2xl font-bold mb-9">"Selecting Bangladesh's Cricket Team: Challenges and Considerations"</h1>
+                <p class="text-xl text-justify">Cricket is a popular sport played with a bat and ball by two teams of 11 players each. The objective is to score more runs than the opposing team while fielding and bowling to restrict the opposition's runs.</p>
+            </div>
+        </div>
+        <div class=" col-span-1"><img class="image-cl right-image" src="images/single-batsman.png" alt=""></div>
+
+    </div>
+</section>
+<section class="mt-12">
+    <div class=" grid grid-cols-4 mx-auto gap-4 mb-4">
+        <div class=" col-span-3 grid grid-cols-3 mx-auto gap-4">
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/sakib01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="sakib" class="card-title  text-xl font-semibold">Sakib All Hasan</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button  id="btn-sakib" class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img  src="images/musfiq04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="mushfiq" class="card-title text-xl font-semibold">Musfiqur Rahim</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button id="btn-mushfiq"  class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;"><img src="images/liton10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="liton" class="card-title  text-xl font-semibold">Liton Kumar Das</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button id="btn-liton"  class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div> 
+        </div>
+        <div class="text-xl col-span-1 p-4 rounded-lg bg-gradient-to-r from-violet-500 to-fuchsia-400 drop-shadow-2xl">
+            <h1 class="text-yellow-200 mb-3"> **You Can select Maximum <span class=" text-xl font-bold"> 05 (Five) </span> Players.</h1>
+            <h1 class="mb-3 text-xl font-semibold" >Your Selected Players : </h1>
+              <div class="pl-6">
+                <ol id="player-list" class="list-decimal">
+                  
+                </ol>
+              </div>
+        </div>
+    </div>
+    <div class=" grid grid-cols-4 mx-auto gap-4 mb-4">
+        <div class=" col-span-3 grid grid-cols-3 mx-auto gap-4">
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/mashrafi08.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="mashrafe" class="card-title  text-xl font-semibold">Mashrafe Bin Murtaza</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button id="btn-mashrafe"  class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/mahmudulla02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="mahmudulla" class="card-title  text-xl font-semibold">Mahmudulla Riyad</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button  id="btn-mahmudulla" class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/miraz07.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="miraz" class="card-title  text-xl font-semibold">Mehedi Hasan Miraz</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button  id="btn-miraz" class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div> 
+        </div>
+        <div class=" col-span-1 p-4 rounded-lg bg-gradient-to-r from-violet-500 to-fuchsia-400 drop-shadow-2xl text-center text-xl font-normal">
+            <h1 class="mb-3 font-bold text-2xl">Budget</h1>
+            <div class="mb-3">
+              <h3 class="inline">Per Player : </h3>
+            <input id="per-player" style="width: 120px;"  name="" id="">
+            </div>
+            <button id="player-expenses-btn" class="mb-3 rounded-lg bg-gradient-to-r from-violet-700 to-fuchsia-700 hover:from-rose-700 to-fuchsia-700 px-4 py-1 drop-shadow-2xl text-white" type="submit">Player Expenses</button>
+            <h1 class="mb-5 font-bold">Player Expenses $<span id="player-expenses">00</span></h1>
+            <div class="mb-3">
+              <h3 class="inline">Manager : </h3>
+            <input id="manager" style="width: 125px;"  name="" id="">
+            </div>
+            <div class="mb-3">
+              <h3 class="inline">Coach : </h3>
+            <input id="coach" style="width: 150px;"  name="" id="">
+            </div>
+            <button id="calculate-total-btn" class="mb-3 rounded-lg bg-gradient-to-r from-violet-700 to-fuchsia-700 hover:from-rose-700 to-fuchsia-700 px-4 py-1 drop-shadow-2xl text-white" type="submit">Calculate Total</button>
+            <h1 class="font-bold">Total $<span id="set-total">00</span></h1>
+
+        </div>
+    </div>
+    <div class=" grid grid-cols-4 mx-auto gap-4 mb-4">
+        <div class=" col-span-3 grid grid-cols-3 mx-auto gap-4">
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/mustafiz03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="mustafiz" class="card-title  text-xl font-semibold">Mustafizur Rahman</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button id="btn-mustafiz"  class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/tamim09.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="tamim" class="card-title  text-xl font-semibold">Tamim Khan Iqbal</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button id="btn-tamim"  class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/shanto06.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="shanto" class="card-title  text-xl font-semibold">Nazmul Hasan Shanto</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button id="btn-shanto"  class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div> 
+        </div>
+    </div>
+    <div class=" grid grid-cols-4 mx-auto gap-4 mb-4">
+        <div class=" col-span-3 grid grid-cols-3 mx-auto gap-4">
+            <div>
+                <div class="card drop-shadow-2xl" style="width: 18rem;">
+                    <img src="images/taskin05.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 id="taskin" class="card-title  text-xl font-semibold">Taskin Ahmed</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button id="btn-taskin"  class="btn btn-primary">ADD Selected</button>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div> 
+        </div>
+        <div class=" col-span-1">
+        </div>
+    </div>
+</section>
+</main>
+<footer class="text-center">
+  <button class="mb-3 rounded-lg bg-gradient-to-r from-violet-700 to-fuchsia-700 px-40 py-3 drop-shadow-2xl text-white" type="submit">Hasibul Hamim Romel</button>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

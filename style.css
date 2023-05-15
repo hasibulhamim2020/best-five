@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.text-violet-gradient {
+    background: linear-gradient(136.85deg,#a7139d -15.82%,#1d2d97 99.57%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: capitalize;
+    -webkit-text-fill-color: transparent;
+}
+.text-border-line-ismail {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(247, 231, 246);
+}
+.left-image{
+    position: relative;
+    top: 50%;
+    left: 25% ;
+    transform: translate(-50%, -50%);
+    height: auto;
+    max-width: 200%;
+}
+.right-image{
+        max-width: 200%;
+}
